@@ -52,12 +52,16 @@ h2 {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 #cards div > div:first-child {
   width: 60%;
   height: 100%;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
