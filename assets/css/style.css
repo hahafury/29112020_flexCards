@@ -1,0 +1,122 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2edf3;
+}
+
+.circ {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: -20px;
+  right: -150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.233);
+}
+
+.circ1 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: -150px;
+  right: -20px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.233);
+}
+
+p {
+  font-size: 18px;
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+#cards {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15vh;
+  height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cards > div {
+  width: 30%;
+  height: 50%;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#cards div > div:first-child {
+  width: 60%;
+  height: 100%;
+  padding: 40px;
+}
+
+.card {
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  color: white;
+}
+
+.card1 {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(35, 35, 194),
+    rgb(33, 47, 191),
+    rgb(32, 59, 187),
+    rgb(30, 71, 184),
+    rgb(28, 83, 181),
+    rgb(26, 95, 178),
+    rgb(25, 108, 174),
+    rgb(23, 120, 171),
+    rgb(21, 132, 168),
+    rgb(19, 144, 165),
+    rgb(18, 156, 161),
+    rgb(16, 168, 158)
+  );
+  color: white;
+}
+
+.card2 {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(35, 194, 144),
+    rgb(33, 188, 146),
+    rgb(32, 182, 148),
+    rgb(30, 177, 151),
+    rgb(28, 171, 153),
+    rgb(26, 165, 155),
+    rgb(25, 159, 157),
+    rgb(23, 153, 159),
+    rgb(21, 147, 161),
+    rgb(19, 142, 164),
+    rgb(18, 136, 166),
+    rgb(16, 130, 168)
+  );
+  color: white;
+}
+
+.cardInfo p:last-child {
+  padding-top: 60px;
+}
